@@ -1,0 +1,29 @@
+// Complete
+
+//------ Refactor code work ------//
+
+TODO Refactor code
+
+For making clean code architecture
+
+user => //-----------//
+	services => // Application called here app
+		createUser.service.ts
+		deleteUser.service.ts
+		findUser.service.ts
+		findUsers.service.ts
+	controllers => // Infrastructure called here api
+		createUser.controller.ts
+		deleteUser.controller.ts
+		findUser.controller.ts
+		findUsers.controller.ts
+	core => // Domain called here core
+		dto =>
+			user.args.dto.ts
+			user.response.dto.ts
+		models =>
+			user.model.ts
+
+//---- Refactor code end work ----//
+
+// end complete

@@ -1,0 +1,9 @@
+test
+.editorconfig
+.eslintrc.js
+.git
+.gitignore
+.prettierrc
+.main.todo
+README.md
+dist
